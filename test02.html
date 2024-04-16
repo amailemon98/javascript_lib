@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <h1 class="color" id="title">한글은 아름다운 글입니다.</h1>
+    
+    <script src="./scripts/jquery-3.7.1.js"></script>
+    <script>
+
+        // $('h1').css('color', 'red')
+        // $('#title').css('font-size', '44px')
+        // $('.color').css('backgroundColor', 'green')
+
+        // .으로 연결하는 방법 => 체이닝 기법(chainning)
+        // $('h1').css('color', 'red') 
+        // .css('font-size', '44px')
+        // .css('backgroundColor', 'green')
+
+        //객체 배열 사용하는 법
+        $('h1').css({ 'color':'red','font-size':'44px','backgroundColor':'green' })
+        // 많은 속성을 바꿔야 할 때 사용
+    </script>
+    <!-- 
+        선택자 선택 : $('css 모든 선택자')
+
+     -->
+</body>
+</html>
